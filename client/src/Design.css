@@ -1,0 +1,101 @@
+
+:root{
+    --max-width: 700px;
+    --input-width: 174px;
+}
+table {
+    border-collapse: collapse;
+    width: 100%;
+    max-width: var(--max-width);
+    margin: 0 auto;
+  }
+  
+  th, td {
+    text-align: left;
+    padding: 8px;
+  }
+  
+  tr:nth-child(odd){background-color: #f2f2f2}
+  
+  th {
+    background-color: #092C4C;
+    color: white;
+  }
+
+  .buttonRond{
+        background-color: #092C4C;
+        border: none;
+        color: white;
+        padding: 10px 18px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        cursor: pointer;
+        border-radius: 50%;
+        float:right;
+    }
+
+    .buttonDelete
+    {
+      background-color: #4C0909;
+      padding: 5px 13px;
+    }
+    .center{
+        margin: 0 auto;
+    }
+
+    .floatUnderTable {
+        width: var(--max-width);
+    }
+  
+    input,select
+    {
+        padding: 5px 0px;
+        padding-left: 10px;
+        border-radius: 5px;
+        border-width: 1px;
+        border-color: gray;
+        outline: none;
+    }
+
+    select
+    {
+      width: var(--input-width);
+    }
+
+  .button{
+    width:45%;
+    overflow:hidden;
+    color: white;
+    border-radius: 5px;
+    height: 25px;
+    width: 150px;
+   
+  }
+    .left{
+     float:left;
+     background-color:#092C4C;
+    }
+
+    .right{
+        float:right;
+        background-color: #4C0909;
+    }
+    
+    .wrapper{
+        width: 350px;
+    }
+
+   
+    .error{
+      padding-bottom: 10px;
+      text-align: left;
+      color: #cc0033;
+      display: inline-block;
+      font-size: 12px;
+      line-height: 15px;
+      margin: 5px 0 0;
+      width: var(--input-width);
+    }
+
+    .titleColor{color: #092C4C}
