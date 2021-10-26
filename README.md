@@ -22,6 +22,7 @@ Ce dépôt comprend 2 projets :
 
 #### Serveur
 
+#### Démarrage
 ```
 -npm install 
 -node main.js
