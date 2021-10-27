@@ -18,7 +18,7 @@ Ce dépôt comprend 2 projets :
 -npm start
 ```
 
-#### Serveur
+### Serveur
 
 #### Démarrage
 ```
